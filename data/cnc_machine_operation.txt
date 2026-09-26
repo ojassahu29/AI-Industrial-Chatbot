@@ -1,0 +1,21 @@
+CNC MACHINE OPERATION AND BASIC MAINTENANCE
+Document ID: CNC-OPS-002
+Revision: 1.0
+
+1. Pre-Start Inspection
+Before starting a CNC machine, check coolant level, lubrication status, workholding, tool condition, enclosure condition, and the work offset/program selected for the job. Confirm that the workpiece is securely clamped.
+
+2. Program Verification
+Verify the correct program number and revision. For a new or modified program, use the machine's approved verification procedure and confirm that tool offsets and work coordinates are appropriate.
+
+3. Coolant
+Low coolant can reduce cutting performance and may cause overheating or poor chip evacuation. Refill using the approved coolant type and concentration specified by the facility.
+
+4. Abnormal Conditions
+Stop the process if unusual vibration, unexpected noise, excessive heat, tool breakage, or abnormal surface finish indicates a possible fault. Do not continue cutting simply to complete the current part.
+
+5. Daily Maintenance
+Remove chips using the approved cleaning method, inspect visible machine areas, check lubrication indicators, and report leaks or damaged components. Do not use compressed air in a way that can drive chips toward sensitive machine components.
+
+6. Maintenance Records
+Record significant maintenance actions, alarms, replaced tooling, and observed abnormalities in the machine maintenance log.

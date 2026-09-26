@@ -1,0 +1,8 @@
+SUBMISSION CHECKLIST
+
+[ ] REPORT.pdf
+[ ] Source code: app.py, src/, requirements.txt
+[ ] Sample documents: data/
+[ ] Screenshots or screen recording of the actual chatbot interaction
+[ ] Rename the top-level Google Drive folder to AI_Industrial_Chatbot_<StudentName>
+[ ] Add the Google Drive link to the course submission form

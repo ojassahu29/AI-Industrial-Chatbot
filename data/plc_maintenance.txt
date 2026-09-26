@@ -1,0 +1,21 @@
+PLC TROUBLESHOOTING AND MAINTENANCE GUIDE
+Document ID: PLC-MNT-003
+Revision: 1.0
+
+1. PLC Communication Failure
+Common symptoms of a communication problem include loss of data exchange, timeout alarms, stale status values, or a device showing an offline state. First verify power and physical network connections, then check the PLC and network diagnostics available from the control system.
+
+2. Power Checks
+Before inspecting electrical hardware, follow the site's electrical safety procedure. Verify that the PLC power supply and relevant field-device power supplies are within their specified operating conditions.
+
+3. I/O Diagnosis
+Compare the expected I/O state with the observed state in the PLC diagnostic or monitoring interface. A mismatch can result from field wiring, sensor/actuator issues, logic conditions, or communication problems.
+
+4. Fault Reset
+A reset should not be treated as the first troubleshooting step for a recurring fault. Capture the alarm or diagnostic information, investigate the cause, and reset only according to the approved procedure.
+
+5. Backup
+Keep an approved backup of PLC programs and configuration data according to site policy. Do not overwrite a working controller program with an unverified backup.
+
+6. Escalation
+If a fault remains unresolved after the approved checks, escalate it to qualified controls or electrical personnel. Do not bypass interlocks or safety logic to force machine operation.

@@ -1,0 +1,21 @@
+INDUSTRIAL ROBOT WORKCELL SAFETY GUIDE
+Document ID: IR-SAFE-001
+Revision: 1.0
+
+1. Emergency Stop
+The emergency-stop circuit is intended to stop hazardous robot motion when an immediate unsafe condition is detected. After an emergency stop, the operator should identify the cause, verify that the area is safe, and follow the site's restart procedure before resuming operation.
+
+2. Workcell Entry
+Before entering a robot workcell, place the robot in a safe state according to the applicable site procedure. Confirm that automatic motion cannot restart unexpectedly. Personnel should use the designated access control and follow lockout/tagout requirements where applicable.
+
+3. Manual Operation
+When teaching or manually jogging a robot, operate at the permitted reduced speed and maintain awareness of the robot's reachable workspace. Keep unnecessary personnel outside the safeguarded area.
+
+4. Restart Checks
+Before returning a robot to automatic operation, verify that tools and objects are clear of the robot path, guards and interlocks are in their required state, and personnel are outside the hazardous area. Follow the approved startup sequence.
+
+5. Fault Handling
+If the controller reports a fault, record the fault information before resetting when practical. Do not bypass safety devices to restore production. Escalate unresolved safety-related faults to authorized maintenance personnel.
+
+6. Preventive Maintenance
+Inspect cables, end-of-arm tooling, mechanical fasteners, guarding, and safety devices according to the maintenance schedule. Maintenance intervals and torque specifications should be taken from the equipment manufacturer's documentation rather than estimated by the operator.

@@ -1,0 +1,15 @@
+DEMO TRANSCRIPT TEMPLATE
+
+Run:
+    python src/build_index.py
+    python src/cli.py
+
+Example questions:
+1. What precautions are required before entering a robot workcell?
+2. What should be checked before restarting the CNC machine?
+3. What are symptoms of PLC communication failure?
+4. What should the chatbot do if the documents do not contain the answer?
+
+IMPORTANT:
+Replace this template with screenshots of the actual running Streamlit application or CLI output before submission.
+Do not submit this text as if it were a screenshot.
