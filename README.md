@@ -57,13 +57,13 @@ Set-ExecutionPolicy -Scope Process Bypass
 python src/build_index.py
 ```
 
-## Run CLI
+## Run CLI (first option to run)
 
 ```powershell
 python src/cli.py
 ```
 
-## Run web UI
+## Run web UI (second option to run)
 
 ```powershell
 streamlit run app.py

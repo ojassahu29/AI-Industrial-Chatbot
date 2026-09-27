@@ -1,15 +1,72 @@
-DEMO TRANSCRIPT TEMPLATE
+DEMO TRANSCRIPT
+AI-Powered Industrial Chatbot
 
-Run:
-    python src/build_index.py
-    python src/cli.py
+1. Build the document index
 
-Example questions:
-1. What precautions are required before entering a robot workcell?
-2. What should be checked before restarting the CNC machine?
-3. What are symptoms of PLC communication failure?
-4. What should the chatbot do if the documents do not contain the answer?
+Command:
+python src/build_index.py
 
-IMPORTANT:
-Replace this template with screenshots of the actual running Streamlit application or CLI output before submission.
-Do not submit this text as if it were a screenshot.
+Result:
+Indexed 3 chunks from 3 documents.
+Vector store generated successfully.
+
+
+2. CLI Demonstration
+
+Command:
+python src/cli.py
+
+Question:
+What precautions are required before entering a robot workcell?
+
+Response:
+Before entering a robot workcell, place the robot in a safe state according to the applicable site procedure. Confirm that automatic motion cannot restart unexpectedly. Personnel should use the designated access control and follow lockout/tagout requirements where applicable.
+
+Retrieved source:
+industrial_robot_safety.txt
+
+
+Question:
+What should be checked before starting a CNC machine?
+
+Response:
+Before starting a CNC machine, check coolant level, lubrication status, workholding, tool condition, enclosure condition, and the work offset/program selected for the job. Confirm that the workpiece is securely clamped.
+
+Retrieved source:
+cnc_machine_operation.txt
+
+
+Question:
+What are the symptoms of a PLC communication failure?
+
+Response:
+Loss of data exchange, timeout alarms, stale status values, or a device showing an offline state.
+
+Retrieved source:
+plc_maintenance.txt
+
+
+3. Knowledge Boundary Test
+
+Question:
+What is the maximum payload of the robot?
+
+Response:
+The provided documents do not contain enough information to determine the maximum payload of the robot.
+
+
+Question:
+Who is the Prime Minister of India?
+
+Response:
+The provided documents do not contain enough information to answer this question.
+
+
+4. Streamlit Demonstration
+
+Command:
+streamlit run app.py
+
+The Streamlit application was tested using robot safety, CNC operation, and knowledge-boundary questions.
+
+Screenshots of the actual application interaction are included in the screenshots folder.
