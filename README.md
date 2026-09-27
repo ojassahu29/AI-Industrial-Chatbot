@@ -19,6 +19,8 @@ AI_Industrial_Chatbot_Project/
 ├── requirements.txt
 ├── README.md
 ├── REPORT.pdf
+├── DEMO_TRANSCRIPT.txt
+├── architecture.png
 ├── data/
 │   ├── industrial_robot_safety.txt
 │   ├── cnc_machine_operation.txt
