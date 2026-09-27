@@ -79,9 +79,7 @@ Open the local Streamlit URL shown in the terminal.
 2. What should be checked before restarting the CNC machine?
 3. What are the symptoms of PLC communication failure?
 4. What should the operator do if the requested information is not in the documents?
+5. Who is the prime minister of India?
 
 The last question demonstrates the grounding/fallback behavior.
 
-## Important
-
-The sample documents in `data/` are project demonstration documents because the assignment brief supplied for this project does not include a separate technical document set. Replace them with the instructor-provided documents if such documents are supplied.
